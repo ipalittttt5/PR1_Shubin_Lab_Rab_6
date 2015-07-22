@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+<script>
+	 
+			
+ $(document).ready(function () {
+ $("#btn1").click(function () {
+ var a=Math.floor(Math.random() * (6 - 1)) + 1; 
+				
+ if(a==1){
+ $("#div1").fadeIn(3000);}
+ else if(a==2){
+ $("#div2").fadeIn(3000);}
+ else if(a==3){
+ $("#div3").fadeIn(3000);}
+ else if(a==4){
+ $("#div4").fadeIn(3000);}
+ else if(a==5) {
+ $("#div5").fadeIn(3000);}
+		
+		
+		});
+ $("#btn2").click(function () {
+ $("#div1").fadeOut();
+ $("#div2").fadeOut();
+ $("#div3").fadeOut();
+ $("#div4").fadeOut();
+ $("#div5").fadeOut();
+		});
+	});
+</script>
+</head>
+
+<body>
+
+<br><br>
+
+<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+<div id="div4" style="width:80px;height:80px;display:none;background-color:yellow;"></div><br>
+<div id="div5" style="width:80px;height:80px;display:none;background-color:black;"></div><br>
+
+</body>
+
+<br><br>
+
+<button id="btn1">1</button>
+<button id="btn2">2</button>
+
+</body>
+</html>
