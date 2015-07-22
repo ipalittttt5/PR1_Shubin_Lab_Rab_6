@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$("button").click(function () {
+		var links=$('li img');
+		links.each(function (i, img) {
+		
+		if(i == 1)
+		{
+			$(this).animate({ top: '50px'}, 'slow'); 
+		}
+		if(i == 3)
+		{
+			$(this).animate({ top: '370px'}, 'slow'); 
+		}
+		if(i == 5)
+		{
+			$(this).animate({ top: '690px'}, 'slow'); 
+		}
+		});				
+	});
+});
+</script>
+
+
+<body>
+
+<button>Click me</button>
+
+<br><br>
+
+<li>
+	<img src="\\C:\\top-5-samykh-dorogostoyashchikh-avto-2014-goda-Lamborghini Reventon.jpg" width="199" height="133"  style="position:absolute;"><br><br><br><br><br><br><br><br>
+</li>
+
+<li>
+	<img src="\\C:\\top-5-samykh-dorogostoyashchikh-avto-2014-goda-Lamborghini Reventon.jpg" width="199" height="133" style="position:absolute;"><br><br><br><br><br><br><br><br>
+</li>
+
+<li>
+	<img src="\\C:\\top-5-samykh-dorogostoyashchikh-avto-2014-goda-Lamborghini Reventon.jpg" width="199" height="133" style="position:absolute;"><br><br><br><br><br><br><br><br>
+</li>
+
+<li>
+	<img src="\\C:\\top-5-samykh-dorogostoyashchikh-avto-2014-goda-Lamborghini Reventon.jpg" width="199" height="133" style="position:absolute;"><br><br><br><br><br><br><br><br>
+</li>
+
+<li>
+	<img src="\\C:\\top-5-samykh-dorogostoyashchikh-avto-2014-goda-Lamborghini Reventon.jpg" width="199" height="133" style="position:absolute;"><br><br><br><br><br><br><br><br>
+</li>
+
+<li>
+	<img src="\\C:\\top-5-samykh-dorogostoyashchikh-avto-2014-goda-Lamborghini Reventon.jpg" width="199" height="133" style="position:absolute;"><br><br><br><br><br><br><br><br>
+</li>
+
+</body>
+
+</html>
