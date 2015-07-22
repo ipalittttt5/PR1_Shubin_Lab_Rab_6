@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$("button").click(function () {
+		var links=$('li p');
+		links.each(function (i,p) {
+		
+		if(i==2) 
+		{
+		$(this).animate({ left: '120px'}); 
+		}
+		if(i==4) 
+		{
+		$(this).animate({ left: '120px'}); 
+		}
+}
+		});
+			
+	});
+		$('#div1').click(function () {
+			$('#div1').animate({top: '+=40px'});
+			});
+		$('#div2').click(function () {
+			$('#div2').animate({top: '+=40px'});
+			});
+		$('#div3').click(function () {
+			$('#div3').animate({top: '+=40px'});
+			});
+		$('#div4').click(function () {
+			$('#div4').animate({top: '+=40px'});
+			});
+		
+		$('#div5').click(function () {
+			$('#div5').animate({top: '+=40px'});
+			});
+			
+});
+</script>
+
+
+<body>
+
+<button>Click me</button>
+
+<ul>
+
+	<li><p id="1" style='position:absolute;'>Krasnyj kvadrat</p></li><br>
+		<div id="div1" style="width:40px;height:40px;background-color:red;position:absolute;"></div><br><br><br><br><br><br>
+
+
+	<li><p id="2" style='position:absolute;'>Zelenyj kvadrat</p></li><br>
+		<div id="div2" style="width:40px;height:40px;background-color:green;position:absolute;"></div><br><br><br><br><br><br>
+
+
+	<li><p id="3" style='position:absolute;'>Sinij kvadrat</p></li><br>
+		<div id="div3" style="width:40px;height:40px;background-color:blue;position:absolute;"></div><br><br><br><br><br><br>
+
+
+	<li><p id="4" style='position:absolute;'>Zhjoltyj kvadrat</p></li><br>
+		<div id="div4" style="width:40px;height:40px;background-color:yellow;position:absolute;"></div><br><br><br><br><br><br>
+
+
+	<li><p id="5" style='position:absolute;'>Chernyj kvadrat</p></li><br>
+		<div id="div5" style="width:40px;height:40px;background-color:black;position:absolute;"></div><br><br><br><br><br><br>
+
+</ul>
+
+</body>
+
+</html>
