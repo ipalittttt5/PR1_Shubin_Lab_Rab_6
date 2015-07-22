@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+
+<script>
+ $(document).ready(function () {
+ $("#but1").click(function () {
+ $("[href]").hide();
+	});
+ $("#but2").click(function () {
+ $("[href]").show();
+	});
+     });
+</script> 
+
+</head> 
+
+
+<body> 
+ 
+<p><a href="http://ya.ru">Poiskovaja sistema Yandex</a></p>
+<p>Poiskovaja sistema Rambler</p>
+<p><a href="http://Google.ru">Poiskovaja sistema Google</a></p>
+<p>Poiskovaja sistema Yahoo</p>
+
+
+
+<br>
+<br>
+<button id="but1">Skryt' jelementy c atributom href</button>
+<button id="but2">Pokazat' jelementy c atributom href</button>
+
+
+</body> 
+
+</html>
