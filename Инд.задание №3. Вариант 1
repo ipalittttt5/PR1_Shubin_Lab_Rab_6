@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+ 
+<script> 
+    $(document).ready(function () { 
+        $("#but1").click(function () { 			
+			for (var i = 1; i <= 20; ++i) {
+				$("#img1").fadeIn(2000);             
+				$("#img2").fadeOut(2000);		
+				$("#img1").fadeOut(2000);             
+				$("#img2").fadeIn(2000);		
+			}			
+        }); 
+		$("#but2").click(function () { 
+            $("#img1").fadeIn(2000);             
+			$("#img2").fadeIn(2000);
+        }); 
+    }); 
+</script> 
+</head> 
+ 
+<body> 
+
+<button id="but1">Button 1</button> 
+<button id="but2">Button 2</button> 
+<br><br> 	
+	<img id="img1" src="1.png" alt="image 1" style="display:none"> 
+	<img id="img2" src="2.png" alt="image 2" style="display:none"> 
+</body> 
+</html>
