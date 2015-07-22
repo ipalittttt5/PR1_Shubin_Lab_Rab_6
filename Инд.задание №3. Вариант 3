@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+<script>
+	 		
+	$(document).ready(function () {
+		$("button").click(function () {
+		var i=1;
+		do{
+		$(".p2").fadeToggle();
+		i++;
+		if(i%2==0){
+			$(".p1").fadeToggle();}
+		}
+		while(i<1000)
+		$(".p1").hide();
+	
+		});
+});
+</script>
+</head>
+
+<body>
+
+<p class="p1"style="display:none">Otshumeli davno</p>
+<p class="p2" style="display:none">Vzryvy bomb i snarjadov,</p>
+<p class="p1"style="display:none">Ne slyhat' svista pul',</p>
+<p class="p2" style="display:none">Net vojny uzhe rjadom.</p>
+<p class="p1"style="display:none">Porosli kovyljom </p>
+<p class="p2" style="display:none">Blindazhi i okopy,</p>
+<p class="p1"style="display:none">Pozabyty teper'</p>
+<p class="p2" style="display:none">Partizanskie tropy.</p>
+<p class="p1"style="display:none">Ne gorjat korabli,</p>
+<p class="p2" style="display:none">Ne dymjat samoljoty,</p>
+
+
+</body>
+
+<br><br>
+
+<button>Click me</button>
+
+
+</html>
