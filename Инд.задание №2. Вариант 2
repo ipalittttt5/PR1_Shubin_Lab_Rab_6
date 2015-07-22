@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+
+<script>
+     $(document).ready(function () {
+        $("button").dblclick(function () {
+		$("[align*='center']").toggle();
+	});
+     });
+</script> 
+
+</head> 
+
+
+<body>  
+<p  id="p1"> Pingviny C: </p>
+<table>
+
+<tr align ="center">
+	<td><img src="\\C:\\Users\\Public\\Pictures\\Sample Pictures\\Penguins.jpg" width="199" height="133"></td>
+</tr>
+
+</table>
+
+<br>
+<br>
+<button >Click me</button>
+
+
+
+</body> 
+
+</html> 
