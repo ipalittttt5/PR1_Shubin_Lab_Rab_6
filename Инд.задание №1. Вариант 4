@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+
+<script>
+     $(document).ready(function () {
+         $("#but1").click(function () {
+		 $("[align*='center']").hide();
+	});
+	$("#but2").click(function () {
+		 $("[align*='center']").show();
+	});
+     });
+</script> 
+
+</head> 
+
+
+<body>  
+ 
+<table >
+<tr align ="center"><td>Mobil'naja operacionnaja sistema IOS</td></tr>
+<tr><td>Mobil'naja operacionnaja sistema Android</td></tr>
+<tr><td>Mobil'naja operacionnaja sistema WindowsPhone</td></tr>
+<tr align ="center"><td>Mobil'naja operacionnaja sistema Symbian</td></tr>
+</table>
+
+<br>
+<br>
+<button id="but1">Skryt' jelementy, vyravnennye poseredine</button>
+<button id="but2">Pokazat' jelementy, vyravnennye poseredine</button>
+
+
+</body> 
+
+</html> 
