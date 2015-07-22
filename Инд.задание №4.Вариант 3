@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$("button").click(function () {
+		var links=$('li p');
+		links.each(function (i,p) {
+		
+		if(i==0)
+		{
+		var p1=$('#1').text();
+		$('#2').text(p1);
+		$(this).animate({ left: '40px'}, 'slow');
+		
+		}
+		if(i==2) 
+		{
+		var p3=$('#3').text();
+		$('#4').text(p3);
+		$(this).animate({ left: '40px'}, 'slow');
+		}
+		if(i==4) 
+		{
+		var p5=$('#5').text();
+		$('#6').text(p5); 
+		$(this).animate({ left: '40px'}, 'slow');
+		}
+		});
+			
+	});
+});
+</script>
+
+
+<body>
+
+<button>Click me</button>
+
+
+	<li><p id="1" style='position:absolute;'>I pod shkval'nym ognjom</p></li><br>
+	<li><p id="2" style='position:absolute;'>Ne lozhitsja pehota.</p></li><br>
+	<li><p id="3" style='position:absolute;'>I ne stonet zemlja,</p></li><br>
+	<li><p id="4" style='position:absolute;'>Propitavshis' ot krovi,</p></li><br>
+	<li><p id="5" style='position:absolute;'>I ne plachut polja,</p></li><br>
+	<li><p id="6" style='position:absolute;'>Sodrogajas' ot boli.</p></li><br>
+
+
+</body>
+
+</html>
