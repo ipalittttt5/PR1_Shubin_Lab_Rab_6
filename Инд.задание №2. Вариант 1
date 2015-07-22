@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+
+<script>
+     $(document).ready(function () {
+        $("#tr1").mouseenter(function () {
+		$(this).hide();
+	});
+     });
+</script> 
+
+</head> 
+
+
+<body>  
+<p  id="p1"> Strochechka C: </p>
+<table>
+<tr><td>Row with Index #0</td></tr>
+<tr id="tr1">
+	<td><img src="\\C:\\37c3bc0abfbc38e1be6b9f5c4a0b5.jpg" width="199" height="133"></td>
+</tr>
+<tr><td>Row with Index #1</td></tr>
+<tr><td>Row with Index #2</td></tr>
+</table>
+
+<br>
+<br>
+<button id="but1">Skryt' chetnye jelementy</button>
+<button id="but2">Pokazat' chetnye jelementy</button>
+
+
+</body> 
+
+</html> 
