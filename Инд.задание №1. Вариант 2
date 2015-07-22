@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+
+<script>
+ $(document).ready(function () {
+ $("#but1").click(function () {
+ $("tr:even").hide();
+	});
+ $("#but2").click(function () {
+ $("tr:even").show();
+	});
+     });
+</script> 
+
+</head> 
+
+
+<body> 
+ 
+<table>
+<tr><td>Row with Index #0</td></tr>
+<tr><td>Row with Index #1</td></tr>
+<tr><td>Row with Index #2</td></tr>
+<tr><td>Row with Index #3</td></tr>
+</table>
+
+<br>
+<br>
+<button id="but1">Skryt' chetnye jelementy</button>
+<button id="but2">Pokazat' chetnye jelementy</button>
+
+
+</body> 
+
+</html>
